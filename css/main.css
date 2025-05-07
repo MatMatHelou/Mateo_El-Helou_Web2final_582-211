@@ -1,0 +1,11 @@
+header {
+display: flex;
+height: 250px;
+min-width: 393px;
+min-height: 250px;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+align-self: stretch;
+background: #000;
+}
