@@ -9,3 +9,13 @@ flex-shrink: 0;
 align-self: stretch;
 background: #000;
 }
+
+.container {
+display: flex;
+padding: 10px 50px;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+border: 11px solid #000;
+background: #4D4D4D;
+}
