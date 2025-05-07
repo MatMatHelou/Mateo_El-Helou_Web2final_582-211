@@ -19,3 +19,7 @@ align-self: stretch;
 border: 11px solid #000;
 background: #4D4D4D;
 }
+
+.image2 {
+    background-image: url("../assets/images/image_vampire_survivors.png");
+}
