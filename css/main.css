@@ -22,4 +22,6 @@ background: #4D4D4D;
 
 .image2 {
     background-image: url("../assets/images/image_vampire_survivors.png");
+    height: 581.06px;
+    align-self: stretch;
 }
