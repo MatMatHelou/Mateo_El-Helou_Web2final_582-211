@@ -42,3 +42,37 @@ flex: 1 0 0;
 border: 11px solid #000;
 background: #4D4D4D; 
 }
+
+.image4 {
+height: 94.902px;
+flex-shrink: 0;
+align-self: stretch;
+aspect-ratio: 215.00/94.90;
+display: flex;
+height: 140px;
+padding: 8px 57px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex: 1 0 0;
+border: 11px solid #000;
+background: #4D4D4D;
+}
+
+.image5 {
+height: 73.722px;
+flex-shrink: 0;
+align-self: stretch;
+aspect-ratio: 261.00/73.72;
+display: flex;
+height: 140px;
+padding: 29px 34px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex: 1 0 0;
+border: 11px solid #000;
+background: #4D4D4D;
+}
