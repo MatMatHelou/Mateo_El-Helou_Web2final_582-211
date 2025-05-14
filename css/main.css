@@ -25,3 +25,17 @@ background: #4D4D4D;
     height: 581.06px;
     align-self: stretch;
 }
+
+.image3 {
+    background-image: url("../assets/images/logo_final_fantasy.png");
+    display: flex;
+    height: 140px;
+    padding: 29px 31px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border: 11px solid #000;
+    background: #4D4D4D;
+}
