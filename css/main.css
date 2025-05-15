@@ -259,3 +259,9 @@ background: #3C3C3C;
   cursor: pointer;
   text-transform: uppercase;
 }
+
+.container {
+width: 1440px;
+height: 250px;
+flex-shrink: 0;
+}
