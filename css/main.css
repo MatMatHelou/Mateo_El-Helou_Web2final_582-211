@@ -224,6 +224,15 @@ background: #3C3C3C;
   height: 150px;
 }
 
+
+.placeholder {
+height: 103px;
+align-self: stretch;
+border: 11px solid #000;
+background: #FFF;
+}
+
+
 .form-section {
   display: flex;
   flex-direction: column;
