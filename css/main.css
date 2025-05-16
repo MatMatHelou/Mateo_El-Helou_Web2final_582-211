@@ -10,6 +10,7 @@ font-weight: 300;
  }
 
 header {
+  width: 1480px;
   display: flex;
   height: 250px;
   min-width: 393px;
@@ -187,12 +188,13 @@ header {
 }
 
 .form-section h2 {
-  text-align: center;
+  text-align: left;
   font-size: 24px;
   margin-bottom: 10px;
 }
 
 .form-section input {
+  width: 515px;
   height: 103px;
   align-self: stretch;
   border: 11px solid #000;
@@ -247,6 +249,7 @@ header {
   width: 1440px;
   min-width: 393px;
   background: #3C3C3C;
+  flex-direction: row;
 }
 
 
