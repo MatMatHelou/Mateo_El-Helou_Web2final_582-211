@@ -143,11 +143,11 @@ background: #000;
 .grey-box {
 display: flex;
 width: 1440px;
-height: 1024px;
 min-width: 393px;
 flex-direction: column;
 align-items: center;
-gap: 72px;
+/*reduire gap*/
+gap: 12px;
 background: #3C3C3C;
 }
 
@@ -159,9 +159,6 @@ background: #3C3C3C;
 }
 
 .form-section {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
   padding: 20px;
   background: #3a3a3a;
   border: 2px solid #000;
@@ -234,13 +231,8 @@ background: #FFF;
 
 
 .form-section {
-display: flex;
 width: 1440px;
-height: 1024px;
 min-width: 393px;
-flex-direction: column;
-align-items: center;
-gap: 72px;
 background: #3C3C3C;
 }
 
