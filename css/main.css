@@ -177,18 +177,20 @@ header {
 
 .form-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 20px;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
   padding: 40px;
+  width: 100%;
 }
 
 
 .form-section {
   padding: 20px;
   background: #3a3a3a;
-  width: 600px;
+  width: 48%;
+  min-width: 350px;
 }
 
 .form-section h2 {
@@ -353,4 +355,49 @@ font-size: 28px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+}
+
+.footer {
+  background-color: #000;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: auto;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-icons img {
+  width: 48px;
+  height: 48px;
+  transition: transform 0.2s;
+}
+
+.footer-icons img:hover {
+  transform: scale(1.1);
+}
+
+.footer-links {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer-links span {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
