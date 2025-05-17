@@ -279,3 +279,53 @@ header {
   height: 250px;
   flex-shrink: 0;
 }
+
+.footer {
+  background-color: #000; /* noir */
+  padding: 20px;
+  position: relative;
+  height: 150px; /* ajuste selon ton besoin */
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 20px;
+}
+
+.footer-icons img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s;
+}
+
+.footer-icons img:hover {
+  transform: scale(1.1);
+}
+
+.À PROPOS {
+
+}
+
+.CONDITIONS {
+
+}
+
+.MEMBRES {
+
+}
+
+.NOUS JOINDRE {
+
+}
+
+.DÉCLARATION {
+
+}
+
+.CARRIÈRE {
+  
+}
