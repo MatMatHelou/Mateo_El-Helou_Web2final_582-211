@@ -168,7 +168,8 @@ header {
   width: 1440px;
   min-width: 393px;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
   /*reduire gap*/
   gap: 12px;
   background: #3C3C3C;
@@ -176,15 +177,18 @@ header {
 
 .form-container {
   display: flex;
+  flex-direction: row;
   gap: 20px;
   justify-content: center;
   align-items: flex-start;
+  padding: 40px;
 }
 
 
 .form-section {
   padding: 20px;
   background: #3a3a3a;
+  width: 600px;
 }
 
 .form-section h2 {
@@ -281,12 +285,13 @@ header {
 }
 
 .footer {
-  background-color: #000; /* noir */
+  background-color: #000; 
   padding: 20px;
   position: relative;
-  height: 150px; /* ajuste selon ton besoin */
+  height: 150px; 
   display: flex;
   align-items: flex-end;
+  width: 1440PX ;
 }
 
 .footer-icons {
@@ -306,26 +311,46 @@ header {
   transform: scale(1.1);
 }
 
-.À PROPOS {
-
+.À-PROPOS {
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+gap: 20px;
 }
 
 .CONDITIONS {
-
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+gap: 20px;
 }
 
 .MEMBRES {
-
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 
-.NOUS JOINDRE {
-
+.NOUS-JOINDRE {
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 
 .DÉCLARATION {
-
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 
 .CARRIÈRE {
-  
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
