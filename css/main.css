@@ -110,12 +110,6 @@ header {
   background: #4D4D4D;
 }
 
-.image6 {
-  height: 357px;
-  align-self: stretch;
-  border: 11px solid #000;
-}
-
 .logo_instagram {
   width: 49px;
   height: 48px;
@@ -154,6 +148,14 @@ header {
   flex: 1 0 0;
   aspect-ratio: 289.00/99.85;
 }
+
+nav {
+  display:block;
+  background-color: #2d2d2d;
+  
+}
+
+
 
 .container {
   width: 1440px;
