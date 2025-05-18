@@ -25,9 +25,9 @@ header {
 .banner-main {
   background-image: url("../assets/images/image_vampire_survivors.png");
   height: 581.06px;
-  align-self: stretch;
-  width: 100%;
-
+  width: 1420px;
+  
+  
 }
 
 .search-bar {
@@ -53,6 +53,7 @@ header {
   font-size: 14px;
   text-align: center;
   border-bottom: 2px solid #000;
+  width: 1380px;
 }
 
 .game-row {
@@ -64,6 +65,7 @@ header {
   padding: 20px 50px;
   background: #000;
   gap: 20px;
+  width: 1320px;
 }
 
 
