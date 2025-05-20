@@ -1,17 +1,17 @@
 @media only screen and (max-width: 768px) {
   body {
-    font-size: 18px; /* Smaller text for smaller screens */
+    font-size: 18px; 
   }
 
   header {
-    width: 100%; /* Full-width header */
+    width: 100%; 
     flex-direction: column; /* Stack items vertically */
     height: auto;
     padding: 10px 20px;
   }
 
   .header-button {
-    font-size: 16px; /* Adjust button size */
+    font-size: 16px; 
     padding: 8px 15px;
   }
 
@@ -22,7 +22,7 @@
 
   .banner-main {
     width: 100%;
-    height: auto; /* Maintain aspect ratio */
+    height: auto; 
   }
 
   .info-box {
@@ -32,29 +32,29 @@
   }
 
   .game-row {
-    flex-direction: column; /* Stack game blocks */
+    flex-direction: column; 
     width: 100%;
     gap: 20px;
     padding: 10px;
   }
 
   .game-block {
-    width: 100%; /* Full-width game blocks */
+    width: 100%; 
   }
 
   .form-row {
-    flex-direction: column; /* Stack form rows */
+    flex-direction: column; 
     gap: 20px;
   }
 
   .form-section {
-    width: 100%; /* Full-width form sections */
+    width: 100%; 
     padding: 15px;
   }
 
   .form-section input,
   .form-section button {
-    width: 100%; /* Full-width inputs and buttons */
+    width: 100%; 
     height: auto;
   }
 
@@ -66,12 +66,12 @@
   }
 
   .footer-links {
-    gap: 15px; /* Smaller gaps */
-    text-align: center; /* Center links */
+    gap: 15px; 
+    text-align: center; 
   }
 
   .footer-icons {
-    justify-content: center; /* Center icons */
+    justify-content: center; 
     gap: 10px;
   }
 
