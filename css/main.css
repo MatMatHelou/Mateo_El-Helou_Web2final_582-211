@@ -50,6 +50,19 @@ main {
   width: 1399px;
 }
 
+.zoom-fade {
+  animation: zoomFadeIn 1.2s ease-out forwards;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+@keyframes zoomFadeIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .search-bar {
   display: flex;
   justify-content: center;
@@ -171,22 +184,20 @@ main {
   aspect-ratio: 289.00/99.85;
 }
 
+
+footer {
+width: 3000px;
+height: 3000px;
+}
 nav {
   display:block;
   width: 3000px;
+  height: 3000px;
 }
 
 .header {
   width: 1400px;
 }
-
-.container {
-  width: 1540px;
-  height: 250px;
-  flex-shrink: 0;
-  background: #000;
-}
-
 
 .grey-box {
   display: flex;
@@ -195,7 +206,6 @@ nav {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  /*reduire gap*/
   gap: 12px;
   background: #3C3C3C;
   padding: 20px;
@@ -208,17 +218,6 @@ nav {
   gap: 40px;
   flex-wrap: wrap;
 }
-
-.form-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 40px;
-  width: 100%;
-}
-
 
 .form-section {
   padding: 20px;
@@ -274,11 +273,13 @@ nav {
 }
 
 .form-section {
-  width: 1480px;
-  min-width: 393px;
-  background: #3C3C3C;
-  flex-direction: row;
-  align-content: flex-end;
+display: flex;
+width: 1480px;
+height: 1201px;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+
 }
 
 
@@ -332,8 +333,9 @@ nav {
 .form-section small {
   display: block;
   margin-top: 10px;
-  font-size: 12px;
-  color: #ccc;
+  font-size: 20px;
+  color: #000000;
+  display: flex;
 }
 
 .container {
@@ -351,6 +353,23 @@ nav {
   align-items: flex-end;
   width: 1440PX ;
 }
+.footer-links {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .footer-row {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 5px;
+    }
+
+    .footer-links a {
+      text-decoration: none;
+      color: white;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+    }
 
 .footer-icons {
   display: flex;
@@ -375,10 +394,11 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 gap: 20px;
+padding-left: 750px;
 }
 
 .CONDITIONS {
-font-size: 20px;
+font-size: 50px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -422,7 +442,7 @@ line-height: normal;
   height: auto;
   flex-wrap: wrap;
   width: 1380px;
-  height: 160px;
+  height: 1600px;
 
 }
 
@@ -449,7 +469,6 @@ line-height: normal;
   font-size: 20px;
   font-weight: bold;
   color: white;
-  margin-bottom: 10px;
 }
 
 .footer-links span {
@@ -504,5 +523,19 @@ line-height: normal;
   }
   100% {
     transform: translateX(-50%);
+  }
+}
+
+.footer-links span {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideUp 0.6s ease-out forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes fadeSlideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

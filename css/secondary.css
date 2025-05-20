@@ -1,0 +1,82 @@
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 18px; /* Smaller text for smaller screens */
+  }
+
+  header {
+    width: 100%; /* Full-width header */
+    flex-direction: column; /* Stack items vertically */
+    height: auto;
+    padding: 10px 20px;
+  }
+
+  .header-button {
+    font-size: 16px; /* Adjust button size */
+    padding: 8px 15px;
+  }
+
+  main {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .banner-main {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .info-box {
+    width: 100%;
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  .game-row {
+    flex-direction: column; /* Stack game blocks */
+    width: 100%;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .game-block {
+    width: 100%; /* Full-width game blocks */
+  }
+
+  .form-row {
+    flex-direction: column; /* Stack form rows */
+    gap: 20px;
+  }
+
+  .form-section {
+    width: 100%; /* Full-width form sections */
+    padding: 15px;
+  }
+
+  .form-section input,
+  .form-section button {
+    width: 100%; /* Full-width inputs and buttons */
+    height: auto;
+  }
+
+  footer {
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+  }
+
+  .footer-links {
+    gap: 15px; /* Smaller gaps */
+    text-align: center; /* Center links */
+  }
+
+  .footer-icons {
+    justify-content: center; /* Center icons */
+    gap: 10px;
+  }
+
+  .grey-box {
+    width: 100%;
+    padding: 15px;
+  }
+}
